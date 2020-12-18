@@ -1,13 +1,16 @@
+import "../Home.css";
+import sunset from '../images/sunset.jpg'
 import React from "react";
+
+
 const Home = () => {
   return (
     <div className="home">
-      <div className="image1">
+       {/* <div className="image1">
         <img src="/sunset.jpg" alt="sunset" />
-      </div>
-      <div className="image2">
-        <img src="/christiana.JPG" alt="christiana" />
-      </div>
+      </div>  */}
+      {/* <div className="image2">
+      </div> */}
       <div className="all-title">
         <p className="title">Health and Wellness Training</p>
         <p className="subtitle">with Christiana Alicante</p>
@@ -22,6 +25,7 @@ const Home = () => {
           them to continuously better their mind and body.
         </p>
         <button className="get-started">Get Started!</button>
+        <img src="/christiana.JPG" alt="christiana" />
       </div>
     </div>
   );
