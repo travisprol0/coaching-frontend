@@ -175,7 +175,7 @@ class InfoForm extends React.Component {
 
   sendEmail = (e) => {
     e.preventDefault()
-    // service_4fh66ju
+    //  first argument below: service_4fh66ju
     emailjs
       .sendForm(
         "service_4fh66ju",
