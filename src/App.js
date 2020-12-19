@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar"
 import Home from "./components/Home";
 import Info from "./components/Info"
 import Contact from "./components/Contact"
+import Recipes from "./components/Recipes"
 
 class App extends React.Component {
 
@@ -21,11 +22,11 @@ class App extends React.Component {
     return (
       <div>
         <Router>
-        {/* <NavBar /> */}
           <Route  path="/" component={NavBar} />
           <Route exact path="/" component={Home} />
           <Route exact path="/info" component={Info} />
-          <Route exact path="/contact" render={(props) => <Contact />} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/recipes" component={Recipes} />
         </Router>
         
       </div>

@@ -9,8 +9,12 @@ class NavBar extends React.Component {
         <>
           <NavLink className="contact-me-nav-active" to="/contact">
             {" "}
-            Contact Me!{" "}
+            Contact{" "}
           </NavLink>
+          <NavLink className="recipes-nav" to="/recipes">
+                {" "}
+                Recipes{" "}
+              </NavLink>
           <NavLink className="info-nav" to="/info">
             {" "}
             Info{" "}
@@ -26,8 +30,12 @@ class NavBar extends React.Component {
         <>
           <NavLink className="contact-me-nav" to="/contact">
             {" "}
-            Contact Me!{" "}
+            Contact{" "}
           </NavLink>
+          <NavLink className="recipes-nav" to="/recipes">
+                {" "}
+                Recipes{" "}
+              </NavLink>
           <NavLink className="info-nav-active" to="/info">
             {" "}
             Info{" "}
@@ -43,13 +51,38 @@ class NavBar extends React.Component {
             <>
               <NavLink className="contact-me-nav" to="/contact">
                 {" "}
-                Contact Me!{" "}
+                Contact{" "}
+              </NavLink>
+              <NavLink className="recipes-nav" to="/recipes">
+                {" "}
+                Recipes{" "}
               </NavLink>
               <NavLink className="info-nav" to="/info">
                 {" "}
                 Info{" "}
               </NavLink>
               <NavLink className="home-nav-active" to="/">
+                {" "}
+                Home{" "}
+              </NavLink>
+            </>
+          );
+    } else if (this.props.location.pathname === "/recipes") {
+        return (
+            <>
+              <NavLink className="contact-me-nav" to="/contact">
+                {" "}
+                Contact{" "}
+              </NavLink>
+              <NavLink className="recipes-nav-active" to="/recipes">
+                {" "}
+                Recipes{" "}
+              </NavLink>
+              <NavLink className="info-nav" to="/info">
+                {" "}
+                Info{" "}
+              </NavLink>
+              <NavLink className="home-nav" to="/">
                 {" "}
                 Home{" "}
               </NavLink>
@@ -62,9 +95,6 @@ class NavBar extends React.Component {
     return (
       <div className="main-div">
         {this.buttons()}
-        {/* <NavLink className="contact-me-nav" to="/contact"> Contact Me! </NavLink>
-                    <NavLink className="info-nav"to="/info"> Info </NavLink>
-                    <NavLink className="home-nav"to="/"> Home </NavLink> */}
       </div>
     );
   }
