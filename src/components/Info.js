@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Info = () => {
-    return(
-        <h1>Info</h1>
-    )
-}
+const Info = (props) => {
+  return <h1>Info</h1>;
+};
 
-export default Info
+export default Info;

@@ -1,16 +1,10 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 import "../css/Home.css";
-
 
 const Home = () => {
   return (
     <div className="home">
-       {/* <div className="image1">
-        <img src="/sunset.jpg" alt="sunset" />
-      </div>  */}
-      {/* <div className="image2">
-      </div> */}
       <div className="all-title">
         <p className="title">Health and Wellness Training</p>
         <p className="subtitle">with Christiana Alicante</p>
@@ -24,9 +18,14 @@ const Home = () => {
           but just needs the resources, tips & tricks, and tools to motivate
           them to continuously better their mind and body.
         </p>
-        {/* <button className="get-started">Get Started!</button> */}
-        <NavLink className="get-started"to="/info"> Get Started! </NavLink>
-        <NavLink className="contact-me" to="/contact"> Contact Me! </NavLink>
+        <NavLink className="get-started" to="/info">
+          {" "}
+          Get Started!{" "}
+        </NavLink>
+        <NavLink className="contact-me" to="/contact">
+          {" "}
+          Contact Me!{" "}
+        </NavLink>
         <img src="/christiana.JPG" alt="christiana" />
       </div>
     </div>

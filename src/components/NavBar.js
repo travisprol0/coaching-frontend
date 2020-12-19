@@ -1,16 +1,73 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import { NavLink } from "react-router-dom";
 import "../css/NavBar.css";
 
-const NavBar = () => {
-    return (
-        <div className="main-div">
+class NavBar extends React.Component {
+  buttons = () => {
+    if (this.props.location.pathname === "/contact") {
+      return (
+        <>
+          <NavLink className="contact-me-nav-active" to="/contact">
+            {" "}
+            Contact Me!{" "}
+          </NavLink>
+          <NavLink className="info-nav" to="/info">
+            {" "}
+            Info{" "}
+          </NavLink>
+          <NavLink className="home-nav" to="/">
+            {" "}
+            Home{" "}
+          </NavLink>
+        </>
+      );
+    } else if (this.props.location.pathname === "/info") {
+      return (
+        <>
+          <NavLink className="contact-me-nav" to="/contact">
+            {" "}
+            Contact Me!{" "}
+          </NavLink>
+          <NavLink className="info-nav-active" to="/info">
+            {" "}
+            Info{" "}
+          </NavLink>
+          <NavLink className="home-nav" to="/">
+            {" "}
+            Home{" "}
+          </NavLink>
+        </>
+      );
+    } else if (this.props.location.pathname === "/") {
+        return (
+            <>
+              <NavLink className="contact-me-nav" to="/contact">
+                {" "}
+                Contact Me!{" "}
+              </NavLink>
+              <NavLink className="info-nav" to="/info">
+                {" "}
+                Info{" "}
+              </NavLink>
+              <NavLink className="home-nav-active" to="/">
+                {" "}
+                Home{" "}
+              </NavLink>
+            </>
+          );
+    }
+  };
 
-                    <NavLink className="contact-me-nav" to="/contact"> Contact Me! </NavLink>
+  render() {
+    return (
+      <div className="main-div">
+        {this.buttons()}
+        {/* <NavLink className="contact-me-nav" to="/contact"> Contact Me! </NavLink>
                     <NavLink className="info-nav"to="/info"> Info </NavLink>
-                    <NavLink className="home-nav"to="/"> Home </NavLink>
-        </div>
-    )
+                    <NavLink className="home-nav"to="/"> Home </NavLink> */}
+      </div>
+    );
+  }
 }
 
-export default NavBar
+export default NavBar;

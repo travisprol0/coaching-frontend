@@ -4,8 +4,8 @@ class InfoForm extends React.Component {
   state = {
     firstName: "",
     lastName: "",
-    phoneNumber: null,
-    iphone: null,
+    phoneNumber: "",
+    iphone: "",
     email: "",
     message: "",
   };

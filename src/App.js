@@ -7,13 +7,24 @@ import Info from "./components/Info"
 import Contact from "./components/Contact"
 
 class App extends React.Component {
+
+  state = {
+    path: "/"
+  }
+
+  pathfinder = (path) => {
+    return path
+  }
+
+ 
   render() {
     return (
       <div>
         <Router>
-        <NavBar />
-          <Route exact path="/" render={(props) => <Home />} />
-          <Route exact path="/info" render={(props) => <Info />} />
+        {/* <NavBar /> */}
+          <Route  path="/" component={NavBar} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/info" component={Info} />
           <Route exact path="/contact" render={(props) => <Contact />} />
         </Router>
         
