@@ -1,6 +1,6 @@
-import "../Home.css";
-import sunset from '../images/sunset.jpg'
 import React from "react";
+import { NavLink } from 'react-router-dom'
+import "../css/Home.css";
 
 
 const Home = () => {
@@ -24,7 +24,9 @@ const Home = () => {
           but just needs the resources, tips & tricks, and tools to motivate
           them to continuously better their mind and body.
         </p>
-        <button className="get-started">Get Started!</button>
+        {/* <button className="get-started">Get Started!</button> */}
+        <NavLink className="get-started"to="/info"> Get Started! </NavLink>
+        <NavLink className="contact-me" to="/contact"> Contact Me! </NavLink>
         <img src="/christiana.JPG" alt="christiana" />
       </div>
     </div>
