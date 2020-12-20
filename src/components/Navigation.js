@@ -20,10 +20,10 @@ class Navigation extends React.Component {
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
             <ReactBootStrap.Nav className="mr-auto">
-              <ReactBootStrap.Nav.Link href="#features">
+              <ReactBootStrap.Nav.Link href="/">
                 Features
               </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link href="#pricing">
+              <ReactBootStrap.Nav.Link href="/">
                 Pricing
               </ReactBootStrap.Nav.Link>
               <ReactBootStrap.NavDropdown

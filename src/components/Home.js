@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../css/web/Home.css";
-import "../css/mobile/HomeMobile.css"
+import "../css/mobile/HomeMobile.css";
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
           but just needs the resources, tips & tricks, and tools to motivate
           them to continuously better their mind and body.
         </p>
-        <NavLink className="get-started" to="/info">
+        <NavLink className="get-started" to="/about-me">
           {" "}
           Get Started!{" "}
         </NavLink>
