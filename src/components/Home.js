@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../css/Home.css";
+import "../css/web/Home.css";
+import "../css/mobile/HomeMobile.css"
 
 const Home = () => {
   return (

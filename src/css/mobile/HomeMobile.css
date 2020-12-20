@@ -1,0 +1,8 @@
+@media screen and (max-width: 480px) {
+    .title {
+      font-family: American Typewriter, serif;
+      font-size: 50px;
+      position: absolute;
+      margin-top: 10px;
+    }
+  }
