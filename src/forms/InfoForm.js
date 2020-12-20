@@ -416,7 +416,7 @@ class InfoForm extends React.Component {
     e.preventDefault()
     //  first argument below: service_4fh66ju
     emailjs
-      .sendForm("", "template_oik5t0k", e.target, "user_qGTcZI0dV3MS1J6d7CirL")
+      .sendForm("service_4fh66ju", "template_oik5t0k", e.target, "user_qGTcZI0dV3MS1J6d7CirL")
       .then(
         (result) => {
           console.log(result.text)
