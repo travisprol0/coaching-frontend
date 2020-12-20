@@ -4,7 +4,7 @@ import "../css/mobile/AboutMeMobile.css"
 
 const AboutMe = (props) => {
   return (
-    <>
+    <div className="info">
       <h1 className="about-me-title">About Me</h1>
       <p className="about-me-paragraph">
         Thanks for reaching out about joining my team. I am so thrilled to start
@@ -32,7 +32,7 @@ const AboutMe = (props) => {
         For more information, fill out the form below and I look forward to
         chatting with you!
       </p>
-    </>
+    </div>
   )
 }
 

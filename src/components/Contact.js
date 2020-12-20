@@ -1,10 +1,11 @@
 import React from "react";
 import InfoForm from "../forms/InfoForm";
+import "../css/web/InfoForm.css";
+import "../css/mobile/InfoFormMobile.css";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
+    <div className="contact-div">
       <InfoForm />
     </div>
   );
