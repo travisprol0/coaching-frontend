@@ -12,22 +12,31 @@
   margin-left: 5%;
 }
 
-.home-image{
+.home-image {
   width: 30%;
   float: right;
   margin-right: 5%;
-  margin-top: 2%
+  margin-top: 2%;
 }
 
 .title {
-  font-family: American Typewriter, serif;
-  font-size: 50px;
   position: absolute;
   margin-top: 10px;
+  /* font-family: American Typewriter, serif;
+  font-size: 50px; */
+
+  font-family: "Abril Fatface";
+  color: #d6672b;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
 }
 
 .subtitle {
-  font-family: American Typewriter, serif;
+  font-family: "Abril Fatface";
+  
   font-size: 30px;
   position: absolute;
   margin-top: 60px;
