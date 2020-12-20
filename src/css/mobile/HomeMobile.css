@@ -1,15 +1,103 @@
 @media screen and (max-width: 480px) {
   .home {
-    /* height: 100vh; */
     width: 100vw;
     background-image: url(../../images/sunset.jpg);
     background-size: cover;
+    float: left;
   }
 
-  /* .title {
+  .all-title {
+    width: 90%;
+    position: relative;
+  }
+
+  .title {
     font-family: American Typewriter, serif;
-    font-size: 50px;
-    position: absolute;
+    font-size: 30px;
+    position: relative;
     margin-top: 10px;
-  } */
+  }
+
+  .subtitle {
+    font-family: American Typewriter, serif;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  .paragraph {
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
+      "Times New Roman", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .home-image {
+    margin-top: 5%;
+    /* position: absolute; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: none;
+  }
+
+  .get-started {
+    box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    background: linear-gradient(to bottom, #85b319 5%, #a5cc52 100%);
+    background-color: #85b319;
+    border-radius: 6px;
+    border: 1px solid #83c41a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e5fcc0;
+    margin-top: 300px;
+    margin-left: 20px;
+  }
+  .get-started:hover {
+    background: linear-gradient(to bottom, #a5cc52 5%, #85b319 100%);
+    background-color: #a5cc52;
+  }
+  .get-started:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .contact-me {
+    box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    background: linear-gradient(to bottom, #85b319 5%, #a5cc52 100%);
+    background-color: #85b319;
+    border-radius: 6px;
+    border: 1px solid #83c41a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e5fcc0;
+    margin-top: 300px;
+    margin-left: 10px;
+  }
+  .contact-me:hover {
+    background: linear-gradient(to bottom, #a5cc52 5%, #85b319 100%);
+    background-color: #a5cc52;
+  }
+  .contact-me:active {
+    position: relative;
+    top: 1px;
+  }
 }

@@ -7,15 +7,17 @@
 
 .all-title {
   position: absolute;
-  width: 90%;
-  margin-top: 5%;
+  width: 50%;
+  margin-top: 10%;
   margin-left: 5%;
+  border-style: solid;
 }
 
-.all-title img {
+.home-image{
   width: 30%;
   float: right;
   margin-right: 5%;
+  margin-top: 2%
 }
 
 .title {
@@ -34,7 +36,7 @@
 
 .paragraph {
   position: absolute;
-  width: 745px;
+  width: 100%;
   margin-top: 100px;
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
     "Times New Roman", serif;

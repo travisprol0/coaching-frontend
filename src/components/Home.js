@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div className="home">
       <div className="all-title">
-        <p className="title">Health and Wellness Training</p>
-        <p className="subtitle">with Christiana Alicante</p>
+        <h1 className="title">Health and Wellness Training</h1>
+        <h1 className="subtitle">with Christiana Alicante</h1>
         <p className="paragraph">
           For the person looking for a structured workout routine you can do
           from your home, right on your phone or computer. The person who wants
@@ -19,16 +19,16 @@ const Home = () => {
           but just needs the resources, tips & tricks, and tools to motivate
           them to continuously better their mind and body.
         </p>
-        <NavLink className="get-started" to="/about-me">
-          {" "}
-          Get Started!{" "}
-        </NavLink>
-        <NavLink className="contact-me" to="/contact">
-          {" "}
-          Contact Me!{" "}
-        </NavLink>
-        <img src="/christiana.JPG" alt="christiana" />
+          <NavLink className="get-started" to="/about-me">
+            {" "}
+            Get Started!{" "}
+          </NavLink>
+          <NavLink className="contact-me" to="/contact-me">
+            {" "}
+            Contact Me!{" "}
+          </NavLink>
       </div>
+      <img className="home-image" src="/christiana.JPG" alt="christiana" />
     </div>
   );
 };
