@@ -29,9 +29,6 @@ const AboutMe = (props) => {
         am looking forward to learning more about and help support each other to
         make things happen!!
         <br></br>
-        <br></br>
-        For more information, fill out the form below and I look forward to
-        chatting with you!
       </p>
       <NavLink className="fitness-button" to="/fitness">
       <p>Fitness <i class="arrow right"></i></p>
