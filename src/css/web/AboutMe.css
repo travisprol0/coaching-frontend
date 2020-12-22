@@ -1,26 +1,95 @@
 .info {
-    height: 100vh;
-    width: 100vw;
-    background-image: url(../../images/sunset.jpg);
-    background-size: cover;
-  }
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../../images/sunset.jpg);
+  background-size: cover;
+}
 
 .about-me-title {
-    font-family: "Abril Fatface";
-    font-size: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  font-family: "Abril Fatface";
+  font-size: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .about-me-paragraph {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
     "Times New Roman", serif;
-    font-size: 25px;
-    color:rgb(3, 29, 29);
+  font-size: 25px;
+  color: rgb(3, 29, 29);
 }
+
+.fitness-button {
+  background-color: #3f155f;
+  border-radius: 6px;
+  border: 1px solid #3f155f;
+  display: inline-block;
+  cursor: pointer;
+  color: #dddddd;
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  float: right;
+  height: 36px;
+  margin-left: 1%;
+  margin-right: 15%;
+}
+
+.fitness-button:hover {
+  background-color: #c2aaf0;
+}
+
+.fitness-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.back-to-home-button {
+  background-color: #3f155f;
+  border-radius: 6px;
+  border: 1px solid #3f155f;
+  display: inline-block;
+  cursor: pointer;
+  color: #dddddd;
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  float: right;
+  height: 36px;
+}
+
+.back-to-home-button:hover {
+  background-color: #c2aaf0;
+}
+
+.back-to-home-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.arrow {
+    border: solid #dddddd;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }

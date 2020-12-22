@@ -1,4 +1,5 @@
 import React from "react"
+import { NavLink } from "react-router-dom"
 import "../css/web/AboutMe.css"
 import "../css/mobile/AboutMeMobile.css"
 
@@ -22,8 +23,8 @@ const AboutMe = (props) => {
         to dedicating your time and energy to prioritizing YOU.
         <br></br>
         <br></br>
-        You'll have access to at-home on demand workouts, superfood
-        nutrition shakes, a nutritious meal plan that works for you, and
+        You'll have access to at-home on demand workouts, superfood nutrition
+        shakes, a nutritious meal plan that works for you, and
         accountability/fitness groups all designed to help reach your goals. I
         am looking forward to learning more about and help support each other to
         make things happen!!
@@ -32,6 +33,12 @@ const AboutMe = (props) => {
         For more information, fill out the form below and I look forward to
         chatting with you!
       </p>
+      <NavLink className="fitness-button" to="/fitness">
+      <p>Fitness <i class="arrow right"></i></p>
+      </NavLink>
+      <NavLink className="back-to-home-button" to="/about-me">
+        <p><i class="arrow left"></i>Home </p>
+      </NavLink>
     </div>
   )
 }

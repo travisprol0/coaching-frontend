@@ -10,4 +10,8 @@
     height: 100%;
     background-image: linear-gradient(to bottom, rgb(0, 70, 92), rgba(205, 223, 104, 0.753),  rgb(202, 158, 77), rgb(123, 92, 144));
   }
+
+  .fitness-button {
+    margin-right: 5%;
+  }
 }

@@ -1,0 +1,68 @@
+.contact-button {
+    background-color: #3f155f;
+    border-radius: 6px;
+    border: 1px solid #3f155f;
+    display: inline-block;
+    cursor: pointer;
+    color: #dddddd;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    float: right;
+    height: 36px;
+    margin-left: 1%;
+    margin-right: 15%;
+  }
+  
+  .contact-button:hover {
+    background-color: #c2aaf0;
+  }
+  
+  .contact-button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  .back-to-wellness-button {
+    background-color: #3f155f;
+    border-radius: 6px;
+    border: 1px solid #3f155f;
+    display: inline-block;
+    cursor: pointer;
+    color: #dddddd;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    float: right;
+    height: 36px;
+  }
+  
+  .back-to-wellness-button:hover {
+    background-color: #c2aaf0;
+  }
+  
+  .back-to-wellness-button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  .arrow {
+      border: solid #dddddd;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+    }
+    
+    .right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    
+    .left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
