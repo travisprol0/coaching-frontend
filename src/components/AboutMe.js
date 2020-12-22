@@ -29,13 +29,13 @@ const AboutMe = (props) => {
         am looking forward to learning more about and help support each other to
         make things happen!!
         <br></br>
-      </p>
       <NavLink className="fitness-button" to="/fitness">
       <p>Fitness <i class="arrow right"></i></p>
       </NavLink>
       <NavLink className="back-to-home-button" to="/about-me">
         <p><i class="arrow left"></i>Home </p>
       </NavLink>
+      </p>
     </div>
   )
 }
