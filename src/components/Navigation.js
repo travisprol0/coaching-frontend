@@ -15,7 +15,7 @@ class Navigation extends React.Component {
           className="navbar"
         >
           <ReactBootStrap.Navbar.Brand href="/">
-            Home
+            Christiana Alicante
           </ReactBootStrap.Navbar.Brand>
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
