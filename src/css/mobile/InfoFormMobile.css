@@ -1,29 +1,36 @@
-.contact-div {
-  background-image: linear-gradient(to bottom, rgb(0, 70, 92), rgba(205, 223, 104, 0.753), rgb(123, 92, 144));
-}
+@media screen and (max-width: 480px) {
+  .contact-div {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(0, 70, 92),
+      rgba(205, 223, 104, 0.753),
+      rgb(123, 92, 144)
+    );
+  }
 
-.form-div {
-  width: 90%;
-  margin: auto;
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
-    "Times New Roman", serif;
-  font-size: 20px;
-  margin-top: 3%;
-}
+  .form-div {
+    width: 90%;
+    margin: auto;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
+      "Times New Roman", serif;
+    font-size: 20px;
+    margin-top: 3%;
+  }
 
-.form-div select {
-  margin-left: 5px;
-  width: 75%;
-}
+  .form-div select {
+    margin-left: 5px;
+    width: 75%;
+  }
 
-.success-paragraph {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
-    "Times New Roman", serif;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 15%;
+  .success-paragraph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
+      "Times New Roman", serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15%;
+  }
 }
