@@ -33,7 +33,7 @@ const AboutMe = (props) => {
       <NavLink className="fitness-button" to="/fitness">
       <p>Fitness <i class="arrow right"></i></p>
       </NavLink>
-      <NavLink className="back-to-home-button" to="/about-me">
+      <NavLink className="back-to-home-button" to="/">
         <p><i class="arrow left"></i>Home </p>
       </NavLink>
       <br></br>
