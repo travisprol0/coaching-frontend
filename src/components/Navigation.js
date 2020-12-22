@@ -6,7 +6,7 @@ import "../css/web/Navigation.css";
 class Navigation extends React.Component {
   render() {
     return (
-      <>
+      <div className="navbar-div">
         <ReactBootStrap.Navbar
           collapseOnSelect
           expand="lg"
@@ -20,32 +20,11 @@ class Navigation extends React.Component {
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
             <ReactBootStrap.Nav className="mr-auto">
-              <ReactBootStrap.Nav.Link href="/">
-                Features
-              </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link href="/">
-                Pricing
-              </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.NavDropdown
-                title="Dropdown"
-                id="collasible-nav-dropdown"
-              >
-                <ReactBootStrap.NavDropdown.Item href="#action/3.1">
-                  Action
-                </ReactBootStrap.NavDropdown.Item>
-                <ReactBootStrap.NavDropdown.Item href="#action/3.2">
-                  Another action
-                </ReactBootStrap.NavDropdown.Item>
-                <ReactBootStrap.NavDropdown.Item href="#action/3.3">
-                  Something
-                </ReactBootStrap.NavDropdown.Item>
-                <ReactBootStrap.NavDropdown.Divider />
-                <ReactBootStrap.NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </ReactBootStrap.NavDropdown.Item>
-              </ReactBootStrap.NavDropdown>
             </ReactBootStrap.Nav>
             <ReactBootStrap.Nav>
+              <ReactBootStrap.Nav.Link href="/">
+                Home
+              </ReactBootStrap.Nav.Link>
               <ReactBootStrap.Nav.Link href="/about-me">
                 About Me
               </ReactBootStrap.Nav.Link>
@@ -67,7 +46,7 @@ class Navigation extends React.Component {
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
-      </>
+      </div>
     )
   }
 }

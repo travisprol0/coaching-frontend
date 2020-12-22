@@ -3,6 +3,7 @@
   width: 100vw;
   background-image: url(../../images/sunset.jpg);
   background-size: cover;
+  /* position: absolute; */
 }
 
 .all-title {

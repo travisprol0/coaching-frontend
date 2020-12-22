@@ -3,3 +3,8 @@
     background-color: teal;
     color: white;
 }
+
+.navbar-div {
+    position: sticky;
+    top: 0;
+}
