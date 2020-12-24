@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
-import "../css/web/Motivation.css";
-import "../css/mobile/MotivationMobile.css"
+import "../../css/web/Motivation.css";
+import "../../css/mobile/MotivationMobile.css"
 
 const Motivation = (props) => {
   return (

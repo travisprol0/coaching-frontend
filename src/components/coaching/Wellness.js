@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
-import "../css/web/Wellness.css";
-import "../css/mobile/WellnessMobile.css"
+import "../../css/web/Wellness.css";
+import "../../css/mobile/WellnessMobile.css"
 
 const Wellness = (props) => {
   return (

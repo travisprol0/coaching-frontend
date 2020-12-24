@@ -1,16 +1,15 @@
-import React from "react"
-import * as ReactBootStrap from "react-bootstrap"
-import "../css/web/Navigation.css";
-// import "../css/mobile/HomeMobile.css"
+import React from "react";
+import * as ReactBootStrap from "react-bootstrap";
+import "../../css/web/Navigation.css";
 
-class Navigation extends React.Component {
+class CoachNavigation extends React.Component {
   render() {
     return (
       <div className="navbar-div">
         <ReactBootStrap.Navbar
           collapseOnSelect
           expand="lg"
-        //   bg="dark"
+          //   bg="dark"
           variant="dark"
           className="navbar"
         >
@@ -19,36 +18,36 @@ class Navigation extends React.Component {
           </ReactBootStrap.Navbar.Brand>
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
-            <ReactBootStrap.Nav className="mr-auto">
-            </ReactBootStrap.Nav>
+            
+            <ReactBootStrap.Nav className="mr-auto"></ReactBootStrap.Nav>
             <ReactBootStrap.Nav>
-              <ReactBootStrap.Nav.Link href="/">
+              <ReactBootStrap.Nav.Link href="/coach">
                 Home
               </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link href="/about-me">
+              <ReactBootStrap.Nav.Link href="/coach/about-me">
                 About Me
               </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link eventKey={2} href="/fitness">
+              <ReactBootStrap.Nav.Link eventKey={2} href="/coach/fitness">
                 Fitness
               </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link eventKey={3} href="/nutrition">
+              <ReactBootStrap.Nav.Link eventKey={3} href="/coach/nutrition">
                 Nutrition
               </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link eventKey={4} href="/wellness">
+              <ReactBootStrap.Nav.Link eventKey={4} href="/coach/wellness">
                 Wellness
               </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link eventKey={5} href="/motivation">
+              <ReactBootStrap.Nav.Link eventKey={5} href="/coach/motivation">
                 Motivation
               </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link eventKey={6} href="/contact-me">
+              <ReactBootStrap.Nav.Link eventKey={6} href="/coach/contact-me">
                 Contact Me
               </ReactBootStrap.Nav.Link>
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
       </div>
-    )
+    );
   }
 }
 
-export default Navigation
+export default CoachNavigation;

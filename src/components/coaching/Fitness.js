@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
-import "../css/web/Fitness.css";
-import "../css/mobile/FitnessMobile.css"
+import "../../css/web/Fitness.css";
+import "../../css/mobile/FitnessMobile.css"
 
 const Fitness = (props) => {
   return (
