@@ -10,6 +10,7 @@ import Nutrition from "./components/coaching/Nutrition";
 import Wellness from "./components/coaching/Wellness";
 import Motivation from "./components/coaching/Motivation";
 import Contact from "./components/coaching/Contact";
+import Blog from "./components/coaching/Blog";
 import ActingHome from "./components/acting/ActingHome"
 
 class App extends React.Component {
@@ -27,6 +28,7 @@ class App extends React.Component {
           <Route exact path="/coach/motivation" component={Motivation} />
           <Route exact path="/coach/contact-me" component={Contact} />
           <Route exact path="/actor" component={ActingHome} />
+          <Route exact path="/blog" component={Blog} />
         </Router>
       </div>
     );

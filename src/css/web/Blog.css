@@ -1,0 +1,8 @@
+.content h1 {
+  text-align: center;
+}
+
+.content p {
+  width: 75vw;
+  margin: auto;
+}
