@@ -21,11 +21,8 @@
 }
 
 .title {
-  position: absolute;
-  margin-top: 10px;
-  /* font-family: American Typewriter, serif;
-  font-size: 50px; */
-
+  position: relative;
+  margin-top: 2%;
   font-family: "Abril Fatface";
   color: #d6672b;
   font-size: 50px;
@@ -37,23 +34,22 @@
 
 .subtitle {
   font-family: "Abril Fatface";
-  
   font-size: 30px;
-  position: absolute;
-  margin-top: 60px;
+  position: relative;
+  margin-top: 2%
 }
 
 .paragraph {
-  position: absolute;
+  position: relative;
   width: 100%;
-  margin-top: 100px;
+  /* margin-top: 2%; */
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
     "Times New Roman", serif;
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  line-height: 22px;
+  /* line-height: 22px; */
 }
 
 .get-started {
@@ -68,18 +64,18 @@
 	font-weight:bold;
 	padding:6px 24px;
   text-decoration:none;
-  margin-top: 285px;
+  margin-top: 2%;
 }
 .get-started:hover {
-	background-color:#c2aaf0;
+  background-color:#c2aaf0;
 }
 .get-started:active {
-	position:relative;
+  position:relative;
 	top:1px;
 }
 
 .contact-me {
-	background-color:#3f155f;
+  background-color:#3f155f;
 	border-radius:6px;
 	border:1px solid #3f155f;
 	display:inline-block;
@@ -90,8 +86,9 @@
 	font-weight:bold;
 	padding:6px 24px;
   text-decoration:none;
-  margin-top: 285px;
+  /* margin-top: 285px; */
   margin-left: 10px;
+  margin-top: 2%;
 }
 .contact-me:hover {
 	background-color:#c2aaf0;

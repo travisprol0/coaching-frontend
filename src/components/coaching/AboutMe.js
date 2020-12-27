@@ -30,10 +30,10 @@ const AboutMe = (props) => {
         make things happen!!
         <br></br>
         <br></br>
-      <NavLink className="fitness-button" to="/fitness">
+      <NavLink className="fitness-button" to="/coach/fitness">
       <p>Fitness <i class="arrow right"></i></p>
       </NavLink>
-      <NavLink className="back-to-home-button" to="/">
+      <NavLink className="back-to-home-button" to="/coach">
         <p><i class="arrow left"></i>Home </p>
       </NavLink>
       <br></br>

@@ -7,12 +7,12 @@ const Nutrition = (props) => {
   return (
     <>
       <h1>Nutrition</h1>
-      <NavLink className="wellness-button" to="/wellness">
+      <NavLink className="wellness-button" to="/coach/wellness">
         <p>
           Wellness <i class="arrow right"></i>
         </p>
       </NavLink>
-      <NavLink className="back-to-fitness-button" to="/fitness">
+      <NavLink className="back-to-fitness-button" to="/coach/fitness">
         <p>
           <i class="arrow left"></i>Fitness{" "}
         </p>

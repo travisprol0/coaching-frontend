@@ -19,11 +19,11 @@ const CoachingHome = () => {
           but just needs the resources, tips & tricks, and tools to motivate
           them to continuously better their mind and body.
         </p>
-          <NavLink className="get-started" to="/about-me">
+          <NavLink className="get-started" to="/coach/about-me">
             {" "}
             Get Started!{" "}
           </NavLink>
-          <NavLink className="contact-me" to="/contact-me">
+          <NavLink className="contact-me" to="/coach/contact-me">
             {" "}
             Contact Me!{" "}
           </NavLink>

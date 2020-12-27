@@ -7,10 +7,10 @@ const Wellness = (props) => {
   return (
   <>
   <h1>Wellness</h1>
-  <NavLink className="motivation-button" to="/motivation">
+  <NavLink className="motivation-button" to="/coach/motivation">
       <p>Motivation <i class="arrow right"></i></p>
       </NavLink>
-      <NavLink className="back-to-nutrition-button" to="/nutrition">
+      <NavLink className="back-to-nutrition-button" to="/coach/nutrition">
         <p><i class="arrow left"></i>Nutrition </p>
       </NavLink>
   </>
