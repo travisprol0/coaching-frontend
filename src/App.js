@@ -1,16 +1,15 @@
-import "./css/App.css";
-import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./css/App.css"
+import React from "react"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 import Home from "./components/Home"
-import CoachNavigation from "./components/coaching/CoachNavigation";
-import CoachingHome from "./components/coaching/CoachingHome";
-import AboutMe from "./components/coaching/AboutMe";
-import Fitness from "./components/coaching/Fitness";
-import Nutrition from "./components/coaching/Nutrition";
-import Wellness from "./components/coaching/Wellness";
-import Motivation from "./components/coaching/Motivation";
-import Contact from "./components/coaching/Contact";
-import Blog from "./components/coaching/Blog";
+import CoachNavigation from "./components/coaching/CoachNavigation"
+import CoachingHome from "./components/coaching/CoachingHome"
+import AboutMe from "./components/coaching/AboutMe"
+import Fitness from "./components/coaching/Fitness"
+import Nutrition from "./components/coaching/Nutrition"
+import Wellness from "./components/coaching/Wellness"
+import Motivation from "./components/coaching/Motivation"
+import Contact from "./components/coaching/Contact"
 import ActingHome from "./components/acting/ActingHome"
 
 class App extends React.Component {
@@ -28,11 +27,10 @@ class App extends React.Component {
           <Route exact path="/coach/motivation" component={Motivation} />
           <Route exact path="/coach/contact-me" component={Contact} />
           <Route exact path="/actor" component={ActingHome} />
-          <Route exact path="/blog" component={Blog} />
         </Router>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
